@@ -11,7 +11,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.Executor;
 
 @SpringBootApplication
-//@EnableAsync
+@EnableAsync
 public class SpringBootAsyncApplication {
 	private static final Logger LOGGER = LoggerFactory.getLogger(SpringBootAsyncApplication.class);
 	public static void main(String[] args) {
